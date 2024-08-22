@@ -16,7 +16,7 @@
 }
  header{
     width: 100%;
-    background-color: #154c79;
+    background-color: #7c7d81;
     color: white;
     text-align: center;
     height: 60px;
@@ -41,6 +41,10 @@ header h3{
     grid-gap: 10px;
     background-color: #7c7d81;
     height: 400px;
+}
+.display{
+    box-shadow: 2px black;
+    border: 2px solid black;
 }
 .display textarea{
     resize: none;
