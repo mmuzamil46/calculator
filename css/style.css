@@ -3,34 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'digital-7';
+    src: url(/fonts/digital-7.ttf);
+}
 .container{
-   
-    justify-content: center;
-    align-items: center;
-    
+   display: flex;
+     justify-content: center;
+    align-items: center; 
+    width: 100%;
 
 }
-.container header{
+ header{
     width: 100%;
     background-color: #154c79;
     color: white;
-}
-.container header h3{
     text-align: center;
+    height: 60px;
+    padding-top: 15px;
+}
+header h3{
+    text-align: center;
+    letter-spacing: 100px;
+    font-size: 30px;
+    font-family: digital-7;
 }
 .calc{
     display: grid;
     align-items: center;
     justify-content: center; 
-    width: 100%;
+    width: 350px;
+   margin-top: 10px;
 }
 .buttons{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-gap: 10px;
+    background-color: #7c7d81;
+    height: 400px;
+}
+.display textarea{
+    resize: none;
+    text-align: right;
+    height: 100px;
+    color: black;
+    font-size: 30px;
+    font-family: digital-7;
+    background-color: #cad3cf;
+}
+.grey{
+    background-color: #414047 !important;
+}
+.red{
+    background-color: red !important;
 }
 .btn{
-    .buttons{
-       background-color: #154c79;
-    }
+  color: white;
+  background-color: #1e1c1f;
+  border-radius: 5px;
+  font-size: 20px;
 }
