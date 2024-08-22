@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+   
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.container header{
+    width: 100%;
+    background-color: #154c79;
+    color: white;
+}
+.container header h3{
+    text-align: center;
+}
+.calc{
+    display: grid;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+}
+.btn::click{
+    .buttons{
+       background-color: #154c79;
+    }
+}
